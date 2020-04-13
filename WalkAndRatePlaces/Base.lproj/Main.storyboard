@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Walk and Rate-->
         <scene sceneID="YlL-TP-yGS">
             <objects>
                 <tableViewController id="F3q-Tc-qkx" customClass="MainViewController" customModule="WalkAndRatePlaces" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                             <outlet property="delegate" destination="F3q-Tc-qkx" id="Iyl-mY-ZMW"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="3He-a1-j8U"/>
+                    <navigationItem key="navigationItem" title="Walk and Rate" id="3He-a1-j8U"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CmL-xz-h5n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,6 +42,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TRS-gj-YLY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="26"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="F3q-Tc-qkx" kind="relationship" relationship="rootViewController" id="gNg-fV-B6E"/>
