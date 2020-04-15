@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040B005B24459677002AFE1E /* storageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B005A24459677002AFE1E /* storageManager.swift */; };
+		040B005D2445DD46002AFE1E /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B005C2445DD46002AFE1E /* RatingControl.swift */; };
+		042720922446F87D005C35AE /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042720912446F87D005C35AE /* MapManager.swift */; };
+		0428F0F32446023A0049453B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428F0F22446023A0049453B /* MapViewController.swift */; };
 		04DD9D162444506000C2504B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9D152444506000C2504B /* AppDelegate.swift */; };
 		04DD9D182444506000C2504B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9D172444506000C2504B /* SceneDelegate.swift */; };
 		04DD9D1D2444506000C2504B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9D1B2444506000C2504B /* Main.storyboard */; };
@@ -14,9 +18,16 @@
 		04DD9D222444506200C2504B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9D202444506200C2504B /* LaunchScreen.storyboard */; };
 		04DD9D2A244454B000C2504B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9D29244454B000C2504B /* MainViewController.swift */; };
 		04DD9D2C24446AAB00C2504B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9D2B24446AAB00C2504B /* CustomTableViewCell.swift */; };
+		04DD9D2E24446E6100C2504B /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9D2D24446E6100C2504B /* PlaceModel.swift */; };
+		04DD9D3024447EE600C2504B /* AddNewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9D2F24447EE600C2504B /* AddNewPlaceViewController.swift */; };
+		E9F672F5EDD77C935DE7554B /* Pods_WalkAndRatePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912C757F6160F6C4992E0448 /* Pods_WalkAndRatePlaces.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040B005A24459677002AFE1E /* storageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storageManager.swift; sourceTree = "<group>"; };
+		040B005C2445DD46002AFE1E /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		042720912446F87D005C35AE /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		0428F0F22446023A0049453B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		04DD9D122444506000C2504B /* WalkAndRatePlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkAndRatePlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DD9D152444506000C2504B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04DD9D172444506000C2504B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +37,11 @@
 		04DD9D232444506200C2504B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DD9D29244454B000C2504B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		04DD9D2B24446AAB00C2504B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		04DD9D2D24446E6100C2504B /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		04DD9D2F24447EE600C2504B /* AddNewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPlaceViewController.swift; sourceTree = "<group>"; };
+		180743893821C4E934531EAE /* Pods-WalkAndRatePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkAndRatePlaces.debug.xcconfig"; path = "Target Support Files/Pods-WalkAndRatePlaces/Pods-WalkAndRatePlaces.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD0B90BDDC3A7A93616F914 /* Pods-WalkAndRatePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkAndRatePlaces.release.xcconfig"; path = "Target Support Files/Pods-WalkAndRatePlaces/Pods-WalkAndRatePlaces.release.xcconfig"; sourceTree = "<group>"; };
+		912C757F6160F6C4992E0448 /* Pods_WalkAndRatePlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalkAndRatePlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F672F5EDD77C935DE7554B /* Pods_WalkAndRatePlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042720932447004F005C35AE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9D2B24446AAB00C2504B /* CustomTableViewCell.swift */,
+				04DD9D29244454B000C2504B /* MainViewController.swift */,
+				04DD9D2F24447EE600C2504B /* AddNewPlaceViewController.swift */,
+				0428F0F22446023A0049453B /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0427209424470072005C35AE /* models */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9D2D24446E6100C2504B /* PlaceModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		042720952447007E005C35AE /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				040B005A24459677002AFE1E /* storageManager.swift */,
+				040B005C2445DD46002AFE1E /* RatingControl.swift */,
+				042720912446F87D005C35AE /* MapManager.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		0427209624470095005C35AE /* support files */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9D1E2444506200C2504B /* Assets.xcassets */,
+				04DD9D232444506200C2504B /* Info.plist */,
+				04DD9D172444506000C2504B /* SceneDelegate.swift */,
+				04DD9D152444506000C2504B /* AppDelegate.swift */,
+			);
+			path = "support files";
+			sourceTree = "<group>";
+		};
+		04272097244700C9005C35AE /* iBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9D202444506200C2504B /* LaunchScreen.storyboard */,
+				04DD9D1B2444506000C2504B /* Main.storyboard */,
+			);
+			path = iBuilder;
+			sourceTree = "<group>";
+		};
 		04DD9D092444506000C2504B = {
 			isa = PBXGroup;
 			children = (
 				04DD9D142444506000C2504B /* WalkAndRatePlaces */,
 				04DD9D132444506000C2504B /* Products */,
+				EB1BDDDBE47E78117BB0A5C5 /* Pods */,
+				D67584B7599756BDB50C6CC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +126,30 @@
 		04DD9D142444506000C2504B /* WalkAndRatePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				04DD9D152444506000C2504B /* AppDelegate.swift */,
-				04DD9D172444506000C2504B /* SceneDelegate.swift */,
-				04DD9D1B2444506000C2504B /* Main.storyboard */,
-				04DD9D29244454B000C2504B /* MainViewController.swift */,
-				04DD9D2B24446AAB00C2504B /* CustomTableViewCell.swift */,
-				04DD9D1E2444506200C2504B /* Assets.xcassets */,
-				04DD9D202444506200C2504B /* LaunchScreen.storyboard */,
-				04DD9D232444506200C2504B /* Info.plist */,
+				04272097244700C9005C35AE /* iBuilder */,
+				0427209624470095005C35AE /* support files */,
+				042720952447007E005C35AE /* helpers */,
+				0427209424470072005C35AE /* models */,
+				042720932447004F005C35AE /* ViewControllers */,
 			);
 			path = WalkAndRatePlaces;
+			sourceTree = "<group>";
+		};
+		D67584B7599756BDB50C6CC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				912C757F6160F6C4992E0448 /* Pods_WalkAndRatePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB1BDDDBE47E78117BB0A5C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				180743893821C4E934531EAE /* Pods-WalkAndRatePlaces.debug.xcconfig */,
+				4BD0B90BDDC3A7A93616F914 /* Pods-WalkAndRatePlaces.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04DD9D262444506200C2504B /* Build configuration list for PBXNativeTarget "WalkAndRatePlaces" */;
 			buildPhases = (
+				04EC8C0C43BD3ACDAA9933E6 /* [CP] Check Pods Manifest.lock */,
 				04DD9D0E2444506000C2504B /* Sources */,
 				04DD9D0F2444506000C2504B /* Frameworks */,
 				04DD9D102444506000C2504B /* Resources */,
+				2489FA17906FA211637500BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +220,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04EC8C0C43BD3ACDAA9933E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalkAndRatePlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2489FA17906FA211637500BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalkAndRatePlaces/Pods-WalkAndRatePlaces-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalkAndRatePlaces/Pods-WalkAndRatePlaces-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalkAndRatePlaces/Pods-WalkAndRatePlaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04DD9D0E2444506000C2504B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04DD9D2A244454B000C2504B /* MainViewController.swift in Sources */,
+				04DD9D3024447EE600C2504B /* AddNewPlaceViewController.swift in Sources */,
 				04DD9D162444506000C2504B /* AppDelegate.swift in Sources */,
+				04DD9D2E24446E6100C2504B /* PlaceModel.swift in Sources */,
+				0428F0F32446023A0049453B /* MapViewController.swift in Sources */,
+				040B005D2445DD46002AFE1E /* RatingControl.swift in Sources */,
+				042720922446F87D005C35AE /* MapManager.swift in Sources */,
 				04DD9D2C24446AAB00C2504B /* CustomTableViewCell.swift in Sources */,
 				04DD9D182444506000C2504B /* SceneDelegate.swift in Sources */,
+				040B005B24459677002AFE1E /* storageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +418,12 @@
 		};
 		04DD9D272444506200C2504B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180743893821C4E934531EAE /* Pods-WalkAndRatePlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCX8Z993GT;
-				INFOPLIST_FILE = WalkAndRatePlaces/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WalkAndRatePlaces/support files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,11 +438,12 @@
 		};
 		04DD9D282444506200C2504B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD0B90BDDC3A7A93616F914 /* Pods-WalkAndRatePlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCX8Z993GT;
-				INFOPLIST_FILE = WalkAndRatePlaces/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WalkAndRatePlaces/support files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
